@@ -11,7 +11,6 @@ on:
       result:
         description: 'Result of the deployment'
         value: ${{ jobs.deploy.outputs.outcome }}
-        type: string
     # secrets:
     #   some-secret:
     #     required: false
